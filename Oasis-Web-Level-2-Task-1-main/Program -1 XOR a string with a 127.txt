@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+#include<stdlib.h>
+void main()
+{
+clrscr();
+char str[]="HelloWorld";
+char str1[11];
+char str2[11];
+int i,len;
+len = strlen(str);
+
+for(i=0;i<len;i++)
+{
+str1[i]=str[i] & 127;
+printf("%c",str1[i]);
+}
+printf("\n");
+for(i=0;i<len;i++)
+{
+str2[i]=str[i]^127;
+printf("%c",str2[i]);
+}
+printf("\n");
+getch();
+}

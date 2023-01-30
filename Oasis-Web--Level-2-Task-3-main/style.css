@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(45deg,rgb(58, 38, 38) 20%, rgb(65, 64, 64));;
+    height:50px;
+}
+
+h1{
+    color: white;
+}
+.navbar navbar-expand-lg{
+    background-color: black;
+    color: white;
+}
+
+.inputapp{
+    background: rgb(175, 166, 249);
+}
+
+#notes{
+    color: rgb(133, 133, 133);
+}
+.navbar-brand{
+    font-size: 150%;
+}
+
+.colortetst{
+    color: rgb(174, 93, 195);
+}
+.colorTasks{
+    background: linear-gradient(-45deg,rgb(189, 127, 240) 20%, rgb(220, 111, 223));;
+}
+.f-social{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.f-social:hover{
+    color: black;
+}
