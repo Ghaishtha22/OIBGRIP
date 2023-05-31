@@ -1,0 +1,180 @@
+Microsoft Windows [Version 10.0.19044.2728]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>node -v
+v18.16.0
+
+C:\Windows\system32>npm install -g typescript
+
+changed 1 package in 35s
+
+C:\Windows\system32>tsc -v
+Version 5.0.4
+
+C:\Windows\system32>npm install -g npm
+
+changed 16 packages in 3s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+C:\Users\Ghanu>cd ..
+
+C:\Users>cd ..
+
+C:\>D:
+
+D:\Ghanu>mkdir AngularDemo
+
+D:\Ghanu>cd AngularDemo
+
+D:\Ghanu\AngularDemo>npm install -g @angular/cli
+npm WARN deprecated @npmcli/move-file@2.0.1: This functionality has been moved to @npmcli/fs
+
+added 245 packages in 22m
+
+31 packages are looking for funding
+  run `npm fund` for details
+
+D:\Ghanu\AngularDemo>ng --help
+ng <command>
+
+Commands:
+  ng add <collection>            Adds support for an external library to your project.
+  ng analytics                   Configures the gathering of Angular CLI usage metrics.
+  ng build [project]             Compiles an Angular application or library into an output directory named dist/ at the given output path.                           [aliases: b]  ng cache                       Configure persistent disk cache and retrieve cache statistics.
+  ng completion                  Set up Angular CLI autocompletion for your terminal.
+  ng config [json-path] [value]  Retrieves or sets Angular configuration values in the angular.json file for the workspace.
+  ng deploy [project]            Invokes the deploy builder for a specified project or for the default project in the workspace.
+  ng doc <keyword>               Opens the official Angular documentation (angular.io) in a browser, and searches for a given keyword.                               [aliases: d]  ng e2e [project]               Builds and serves an Angular application, then runs end-to-end tests.                                                               [aliases: e]  ng extract-i18n [project]      Extracts i18n messages from source code.
+  ng generate                    Generates and/or modifies files based on a schematic.                                                                               [aliases: g]  ng lint [project]              Runs linting tools on Angular application code in a given project folder.
+  ng new [name]                  Creates a new Angular workspace.                                                                                                    [aliases: n]  ng run <target>                Runs an Architect target with an optional custom builder configuration defined in your project.
+  ng serve [project]             Builds and serves your application, rebuilding on file changes.                                                                     [aliases: s]  ng test [project]              Runs unit tests in a project.                                                                                                       [aliases: t]  ng update [packages..]         Updates your workspace and its dependencies. See https://update.angular.io/.
+  ng version                     Outputs Angular CLI version.                                                                                                        [aliases: v]
+Options:
+  --help  Shows a help message for this command in the console.                                                                                                         [boolean]
+For more information, see https://angular.io/cli/.
+
+D:\Ghanu\AngularDemo>ng version
+? Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+details and how to change this setting, see https://angular.io/analytics. Yes
+
+Thank you for sharing pseudonymous usage data. Should you change your mind, the following
+command will disable this feature entirely:
+
+    ng analytics disable --global
+
+Global setting: enabled
+Local setting: No local workspace configuration file.
+Effective status: enabled
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 15.2.7
+Node: 18.16.0
+Package Manager: npm 9.6.5
+OS: win32 x64
+
+Angular:
+...
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.1502.7 (cli-only)
+@angular-devkit/core         15.2.7 (cli-only)
+@angular-devkit/schematics   15.2.7 (cli-only)
+@schematics/angular          15.2.7 (cli-only)
+
+D:\Ghanu\AngularDemo>ng new first.app
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+CREATE first.app/angular.json (2715 bytes)
+CREATE first.app/package.json (1040 bytes)
+CREATE first.app/README.md (1062 bytes)
+CREATE first.app/tsconfig.json (901 bytes)
+CREATE first.app/.editorconfig (274 bytes)
+CREATE first.app/.gitignore (548 bytes)
+CREATE first.app/tsconfig.app.json (263 bytes)
+CREATE first.app/tsconfig.spec.json (273 bytes)
+CREATE first.app/.vscode/extensions.json (130 bytes)
+CREATE first.app/.vscode/launch.json (470 bytes)
+CREATE first.app/.vscode/tasks.json (938 bytes)
+CREATE first.app/src/favicon.ico (948 bytes)
+CREATE first.app/src/index.html (294 bytes)
+CREATE first.app/src/main.ts (214 bytes)
+CREATE first.app/src/styles.css (80 bytes)
+CREATE first.app/src/assets/.gitkeep (0 bytes)
+CREATE first.app/src/app/app-routing.module.ts (245 bytes)
+CREATE first.app/src/app/app.module.ts (393 bytes)
+CREATE first.app/src/app/app.component.html (23115 bytes)
+CREATE first.app/src/app/app.component.spec.ts (1082 bytes)
+CREATE first.app/src/app/app.component.ts (213 bytes)
+CREATE first.app/src/app/app.component.css (0 bytes)
+√ Packages installed successfully.
+warning: in the working copy of '.editorconfig', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.vscode/extensions.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.vscode/launch.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.vscode/tasks.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'angular.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app-routing.module.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.component.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.component.spec.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.component.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.module.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.app.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.spec.json', LF will be replaced by CRLF the next time Git touches it
+    Successfully initialized git.
+
+D:\Ghanu\AngularDemo>ng serve
+Error: This command is not available when running the Angular CLI outside a workspace.
+
+D:\Ghanu\AngularDemo>cd first.app
+
+D:\Ghanu\AngularDemo\first.app>ng serve
+? Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+details and how to change this setting, see https://angular.io/analytics. Yes
+
+Thank you for sharing pseudonymous usage data. Should you change your mind, the following
+command will disable this feature entirely:
+
+    ng analytics disable
+
+Global setting: enabled
+Local setting: enabled
+Effective status: enabled
+√ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.04 MB |
+polyfills.js          | polyfills     | 314.27 kB |
+styles.css, styles.js | styles        | 209.40 kB |
+main.js               | main          |  48.10 kB |
+runtime.js            | runtime       |   6.52 kB |
+
+                      | Initial Total |   2.60 MB
+
+Build at: 2023-04-27T18:11:00.955Z - Hash: 59eb4ba0dfbbb0ab - Time: 9386ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+√ Compiled successfully.
+
+
+
